@@ -198,6 +198,10 @@
   transform-origin: left;
 }
 
+.button:focus {
+outline: none;
+}
+
 .button:focus-visible {
   box-shadow: 2px 2px var(--accent-color, rgba(0, 0, 0, 1));
 }
@@ -222,12 +226,15 @@
   min-inline-size: 40px;
 }
 
+.card__icon-button:focus {
+outline: none;
+}
+
 .card__icon-button:focus-visible {
   border: 2px solid var(--accent-color, rgba(0, 0, 0, 1));
 }
 
-.like-icon {
-}
+
 
 .card__like-button {
   align-self: flex-end;
@@ -251,8 +258,10 @@
 .floppy-icon {
   fill: rgba(255, 255, 255, 1);
   inline-size: 21px;
-  /* mix-blend-mode: difference; */ /* Почему-то не работает, я никак не смог понять, почему */ 
+   /* mix-blend-mode: difference; Почему-то не работает, я никак не смог понять, почему  */
 }
+
+
 
 @media (width <=600px) {
   .save-button {
