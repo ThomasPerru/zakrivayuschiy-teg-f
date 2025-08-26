@@ -16,6 +16,8 @@ https://github.com/ThomasPerru/zakrivayuschiy-teg-f
 
 - URL решения: [Github]( https://github.com/ThomasPerru/zakrivayuschiy-teg-f )
 
+- URL сайт: [Github]( https://thomasperru.github.io/zakrivayuschiy-teg-f/ ) 
+
 ## Автор
 
 - Github - [ThomasPerru][def]
