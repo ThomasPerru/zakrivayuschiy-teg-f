@@ -256,9 +256,8 @@ outline: none;
 }
 
 .floppy-icon {
-  fill: rgba(255, 255, 255, 1);
   inline-size: 21px;
-   /* mix-blend-mode: difference; Почему-то не работает, я никак не смог понять, почему  */
+  mix-blend-mode: difference;
 }
 
 
